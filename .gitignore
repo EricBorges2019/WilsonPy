@@ -1,0 +1,84 @@
+# --- Python ---
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+.eggs/
+
+# Virtual Environments (Common names)
+# If you use a different name, add it here!
+venv/
+.venv/
+env/
+.env/
+*_env/
+*_venv/
+
+# Pyenv local version file
+# Sometimes committed to ensure consistent Python version across devs,
+# but often ignored if developers manage their own pyenv versions.
+# Uncomment if you want to ignore it.
+# .python-version
+
+# --- Testing ---
+# Pytest cache
+.pytest_cache/
+
+# Tox virtual environments
+.tox/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+
+# --- IDEs / Editors ---
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# --- Secrets / Environment Variables ---
+# Never commit sensitive files!
+# Use .env.example or similar for templates if needed.
+*.env
+secrets.*
+credentials.*
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Logs ---
+*.log
+
+# --- Jupyter Notebook ---
+# Checkpoints
+.ipynb_checkpoints
+
+# Add any other project-specific files or directories that shouldn't be tracked below:
+# e.g., data/, reports/, etc.
