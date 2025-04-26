@@ -21,6 +21,7 @@ env/
 .env/
 *_env/
 *_venv/
+Wilson/
 
 # Pyenv local version file
 # Sometimes committed to ensure consistent Python version across devs,
