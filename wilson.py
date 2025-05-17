@@ -10,6 +10,7 @@ def wilson_lower_bound(pos, n, confidence=0.95):
     :param n: Total number of ratings
     :param confidence: Confidence interval, by default is 95 %
     :return: Wilson Lower bound score
+    
     """
     if n == 0:
         return 0
